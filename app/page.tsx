@@ -1,4 +1,5 @@
 import Container from "@/components/Container";
+import Photo from "@/components/Photo";
 import SocialLinks from "@/components/SocialLinks";
 import Statistics from "@/components/Statistics";
 import { Download } from "lucide-react";
@@ -20,7 +21,7 @@ export default function Home() {
               <SocialLinks></SocialLinks>
               <Statistics></Statistics>
         </div>
-        <div>photo</div>
+       <Photo></Photo>
       </Container>
 
     </div>
