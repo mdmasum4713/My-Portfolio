@@ -7,7 +7,7 @@ export const NavbarData=[
 ];
 
 export const statsData = [
-    { num: 2, text: "Years of experience" },
+    { num: 1, text: "Years of experience" },
     { num: 9, text: "Projects completed" },
     { num: 8, text: "Technologies mastered" },
     { num: 300, text: "Code commits" },
