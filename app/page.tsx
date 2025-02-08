@@ -15,10 +15,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl mb-2">Hello I&apos;m</h2>
             <h1 className="text-lightSky text-5xl md:text-7xl tracking-normal">Masum Khondokher</h1>
           </div>
-          {/* <p className="w-auto md:max-w-[500px] text-white/50 font-thin leading-6">As a Front-End Developer, I design and build interactive web interfaces, enhance user experiences, and ensure websites are responsive and visually appealing.
-            From crafting UI components
-             to optimizing performance, I bridge the gap between design and 
-             functionality.</p> */}
+          {/* <p className="w-auto md:max-w-[500px] text-white/50 font-thin leading-6">As a Front-End Developer, I design and build interactive web interfaces, enhance user experiences, and ensure websites are responsive and visually appealing. From crafting UI components to optimizing performance, I bridge the gap between design and  functionality.</p> */}
              <div className="w-full h-[170px] md:h-[140px] relative">
               <div className="absolute top-0 left-0 w-full h-full">
                 <HomeDescription></HomeDescription>
