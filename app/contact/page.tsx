@@ -1,14 +1,15 @@
 
+import ContactForm from "@/components/ContactForm";
 import Container from "@/components/Container";
 import { Mail, MapPinCheck, Phone } from "lucide-react";
 import React from "react";
 
 const infoData = [
-  { title: "Phone", description: "(+021) 251 198 254", icon: <Phone /> },
-  { title: "Email", description: "youremail@gmail.com", icon: <Mail /> },
+  { title: "Phone", description: "(+880) 308 624 713", icon: <Phone /> },
+  { title: "Email", description: "mdmasum4713@gmail.com", icon: <Mail /> },
   {
     title: "Address",
-    description: "New Town, through back city",
+    description: "Dewongonj,Jamalpur",
     icon: <MapPinCheck />,
   },
 ];
@@ -18,7 +19,7 @@ const ContactPage = () => {
     <Container className="py-6 md:py-12">
       <div className="flex flex-col md:flex-row gap-6 md:gap-14">
         <div className="w-full md:w-2/3">
-        
+       <ContactForm></ContactForm>
         </div>
         <div className="w-full md:w-1/3 flex flex-col justify-center gap-4 md:gap-8">
           {infoData?.map((item) => (
