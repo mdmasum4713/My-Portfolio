@@ -8,7 +8,7 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
+ 
   SelectTrigger,
   SelectValue,
 } from "./ui/select";
@@ -107,8 +107,7 @@ const ContactForm = () => {
         Let&apos;s work together
       </h3>
       <p className="text-white/60 text-sm md:text-base">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit
-        vel saepe fugiat ex aperiam, totam quae et tenetur deleniti.
+        Please confirm your agreement by filling out the contract form below to finalize our partnership and proceed with the next steps in our collaboration.
       </p>
       <>
         {success ? (
@@ -169,10 +168,10 @@ const ContactForm = () => {
                 </SelectTrigger>
                 <SelectContent className="bg-bodyColor text-white border-white/20">
                   <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
                     <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="mst">Full Stack Development</SelectItem>
+                    <SelectItem value="fed">Front-End Development</SelectItem>
+                    <SelectItem value="jsc">JavaScript Coding</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
